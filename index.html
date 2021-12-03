@@ -15,6 +15,16 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+}
+
 </style>
 <body class="w3-black">
 
@@ -56,7 +66,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Temisan Ejeye.</h1>
     <p>Model.</p>
-    <img src="/Pictures/temisan 2.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    <img src="/Pictures/temisan 2.jpg" alt="Temisan" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
@@ -143,7 +153,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div>
     End Grid/Pricing tables-->
     
-    <!-- Testimonials -->
+    <!-- Testimonials 
     <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
     <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
@@ -152,7 +162,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
     <p>No one is better than John Doe.</p>
-  <!-- End About Section -->
+  End About Section -->
   </div>
   
   <!-- Portfolio Section -->
@@ -161,7 +171,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-row-padding flex-container" style="margin:0 -16px">
       <div class="w3-half">
         <img src="/Pictures/Temisan 7.jpg" style="width:100%">
         <img src="/Pictures/Temisan 6.jpg" style="width:100%">
@@ -169,10 +179,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       </div>
 
       <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
+        <img src="/Pictures/Temisan 2.JPG" style="width:100%">
+        <img src="/Pictures/temisan 10.jpg" style="width:100%">
+        <img src="/Pictures/temisan 11.jpg" style="width:100%">
+        <img src="/Pictures/tenisan 9.jpg" style="width:100%">
       </div>
     <!-- End photo grid -->
     </div>
@@ -207,13 +217,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <i class="fa fa-facebook-official w3-hover-opacity"><a href=""></a></i>
+    <i class="fa fa-instagram w3-hover-opacity"><a href=""></a></i>
+    <i class="fa fa-snapchat w3-hover-opacity"><a href=""></a></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"><a href=""></a></i>
+    <i class="fa fa-twitter w3-hover-opacity"><a href=""></a></i>
+    <i class="fa fa-linkedin w3-hover-opacity"><a href=""></a></i>
+    <p class="w3-medium">Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
 
